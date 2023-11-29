@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>portfolio-website</title>
+    <link href="{{url_for('static',filename='images/Portfolio-Desk.png')}}" rel="icon">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
+    <script src="{{url_for('static',filename='js/javascript.js')}}"></script>
+</head>
+<body>
+
+    <header class="header-1">
+
+        <div class="logo">
+            <img class="img-logo" src="{{url_for('static',filename='images/logo.png')}}">
+        </div>
+
+        <nav class="nav">
+
+            <ul class="nav-links">
+                <li><a class="resume-link" href="resume.html"><b>Resume</b></a></li>
+                <li><a class="resume-link" href="projects.html"><b>Porojects</b></a></li>
+                <li><a class="resume-link" href="Experience.html"><b>Experience</b></a></li>
+                <li><a class="resume-link" href="contact.html"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section class="sec-1">
+        <div class="details">
+            <h1 class="name">I'M <span class="name-1">Niraj Kumar</span></h1>
+            <h2 class="deg-1">Data Scientist,</h2>
+            <h2 class="deg-2">Python Developer &</h2>
+            <h2 class="deg-3">Web Developer</h2>
+            <a href="email.html"><button class="button"><b>Contact us</b></button></a>
+        </div>
+        <div class="image">
+            <img class="my-image" src="{{url_for('static',filename='images/my-images.png')}}">
+        </div>
+        <div class="social-link">
+            <img class="instagram" src="{{url_for('static',filename='images/instagram.png')}}">
+            <img class="facebook" src="{{url_for('static',filename='images/facebook.png')}}">
+            <img class="twitter" src="{{url_for('static',filename='images/twitter.png')}}">
+    
+        </div>
+    </section>
+    <h1 class="about"><u class="underline">Ab</u>out</h1>
+    <p class="summary">As a recent data science graduate, I possess a strong foundation in statistical analysis, machine learning, and data visualization. With a passion for solving complex problems, I am excited to apply My skills in a professional setting and contribute to the growth of the company.<span class="summ-c"> My experience with programming languages such as Python as well as proficiency in SQL and data analysis tools like Tableau and Power BI, make me well-equipped to tackle real-world data challenges</span>. I am a quick learner, detail-oriented, and thrive in collaborative environments.</p>
+    <H1 class="education">Education</H1>
+    <table class="table" border="1">
+        <tr>
+            <th class="column"><b>Degree</b></th>
+            <th class="column">Institution</th>
+            <th class="column">Major</th>
+            <th class="column">Percentage</th>
+            <th class="column">Passout Year</th> 
+        </tr>
+        <tr>
+            <td>Data Sceince</td>
+            <td>Techstack</td>
+            <td>Computer science</td>
+            <td>0.86%</td>
+            <td>2022-23</td>
+        </tr>
+        <tr>
+            <td>Bachelor's</td>
+            <td>University of Magadh University</td>
+            <td>Accounts</td>
+            <td>0.65%</td>
+            <td>2020-23</td>
+        </tr>
+    </table>
+
+    <h1 class="skills"><b>My S<span class="part-skill">kills</span></b></h1>
+    <section class="sec-2">
+        <div class="python">
+            <img class="python-img" src="{{url_for('static',filename='images/pyython.png')}}">
+        </div>
+
+        <div class="mysql">
+            <img class="mysql-img" src="{{url_for('static',filename='images/mysql.png')}}">
+        </div>
+        <div class="html">
+            <img class="html-img" src="{{url_for('static',filename='images/html.png')}}">
+        </div>
+        <div class="css">
+            <img class="css-img" src="{{url_for('static',filename='images/css.png')}}">
+        </div>
+    </section>
+
+    <section class="sec-3">
+        <div class="js">
+            <img class="js-img" src="{{url_for('static',filename='images/js.png')}}">
+        </div>
+
+        <div class="power-bi">
+            <img class="power-img" src="{{url_for('static',filename='images/power-bi.png')}}">
+        </div>
+        <div class="tablue">
+            <img class="tablue-img" src="{{url_for('static',filename='images/tablue.png')}}">
+        </div>
+        <div class="excel">
+            <img class="excel-img" src="{{url_for('static',filename='images/excel.png')}}">
+        </div>
+    </section>
+    <section class="sec-4">
+        <div class="machine-learning">
+            <img class="ml-img" src="{{url_for('static',filename='images/ml_2.png')}}">
+        </div>
+
+        <div class="deep-learning">
+            <img class="dl-img" src="{{url_for('static',filename='images/deep.png')}}">
+        </div>
+        <div class="nlp">
+            <img class="nlp-img" src="{{url_for('static',filename='images/nlp.png')}}">
+        </div>
+        <div class="git">
+            <img class="git-img" src="{{url_for('static',filename='images/git.png')}}">
+        </div>
+    </section>
+    <h1 class="name-frame">FrameWork</h1>
+
+    <section class="sec-last">
+        <div class="frame-work">
+            <li class="list">
+                <h2>Flask</h2>
+                <h2>sklearn</h2>
+                <h2>Pandas</h2>
+                <h2>Numpy</h2>
+                <h2>Seaborn</h2>
+            </li>
+        </div>
+
+        <div class="frame-work-2">
+            <li class="list">
+                <h2>Keras</h2>
+                <h2>Tensorflow</h2>
+                <h2>Matplotlib</h2>
+                <h2>ETL</h2>
+                <h2>NLTK</h2>
+            </li>
+        </div>
+    </section>
+</body>
+</html>
+ 
